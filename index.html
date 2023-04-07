@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> ToDo Task </title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+<section class="bg-gray-50 min-h-screen flex items-center justify-center">
+  <!-- task Container -->
+  <div class="bg-gray-100 flex rounded-2xl shadow-lg max-w-3xl p-5">
+    <!-- form -->
+    <div class="sm:w-1/2 px-16">
+      <h2 class="font-bold text-2xl text-[#002D74]"> Chalanges </h2>
+      <p class="text-sm my-4">What you will change today ?</p>
+      <form action="" class="flex flex-col gap-4" method="post">
+        <input class="p-2 mt-8 rounded-xl border" type="text" name="task" id="" placeholder="enter the task">
+        <button  class="bg-[#002D74] rounded-xl text-white py-2 hover:scale-105 duration-300" type="submit">Save</button>
+      </form>
+    </div>
+    <!-- Image -->
+    <div class="sm:block hidden w-1/2">
+      <img class="rounded-2xl " src="https://cdn1.vectorstock.com/i/1000x1000/30/10/your-future-is-created-by-what-you-do-today-vector-13883010.jpg" alt="todo_image">
+    </div>
+    <!--End of task container -->
+  </div>
+</section>
+</body>
+</html>
